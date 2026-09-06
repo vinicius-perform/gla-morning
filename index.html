@@ -152,22 +152,25 @@
   <!-- AURA BACKGROUND GLOWS -->
   <div class="fixed inset-0 bg-aura pointer-events-none z-0"></div>
 
-  <!-- HEADER / TOP NAVIGATION -->
-  <header class="relative z-30 w-full border-b border-brand-gold/15 bg-brand-cream/80 backdrop-blur-md sticky top-0 transition-all">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
+  <main class="relative z-10">
+
+    <!-- ========================================== -->
+    <!-- [SEÇÃO 1: HERO / BANNER PRINCIPAL] -->
+    <!-- ========================================== -->
+    <section id="hero" class="relative pt-12 pb-20 sm:pt-16 sm:pb-28 px-4 sm:px-6 max-w-5xl mx-auto text-center">
       
       <!-- LOGOS EM DESTAQUE: GLA & DOMCORE -->
-      <div class="flex items-center gap-4 sm:gap-6">
+      <div class="flex items-center justify-center gap-4 sm:gap-6 mb-8">
         <!-- Logo GLA -->
-        <a href="#hero" class="group flex items-center gap-2">
-          <div class="w-10 h-10 rounded-full border border-brand-gold/40 flex items-center justify-center bg-white/70 shadow-sm group-hover:border-brand-gold transition-colors">
+        <div class="flex items-center gap-2">
+          <div class="w-9 h-9 rounded-full border border-brand-gold/40 flex items-center justify-center bg-white/70 shadow-sm">
             <span class="font-serif font-bold text-base tracking-widest text-brand-espresso">G</span>
           </div>
-          <div class="flex flex-col">
-            <span class="font-serif font-bold text-lg tracking-[0.25em] text-brand-espresso leading-none">GLA</span>
-            <span class="text-[9px] tracking-[0.3em] text-brand-muted uppercase font-sans">Experience</span>
+          <div class="flex flex-col text-left">
+            <span class="font-serif font-bold text-base tracking-[0.25em] text-brand-espresso leading-none">GLA</span>
+            <span class="text-[8px] tracking-[0.3em] text-brand-muted uppercase font-sans">Experience</span>
           </div>
-        </a>
+        </div>
 
         <!-- Divisor Elegante -->
         <div class="h-6 w-[1px] bg-brand-gold/30"></div>
@@ -179,28 +182,6 @@
         </div>
       </div>
 
-      <!-- BOTÃO HEADER CTA -->
-      <div class="flex items-center gap-3">
-        <a href="#schedule" class="hidden md:inline-flex items-center gap-1.5 text-xs font-semibold tracking-wider text-brand-muted hover:text-brand-charcoal transition-colors uppercase px-3 py-2">
-          <i data-lucide="calendar" class="w-3.5 h-3.5 text-brand-gold"></i>
-          Programação
-        </a>
-        <a href="#rsvp" onclick="scrollToForm(event)" class="gold-button text-brand-espresso font-semibold text-xs sm:text-sm px-4 sm:px-5 py-2.5 rounded-full shadow-sm flex items-center gap-2 tracking-wide uppercase">
-          <span>Confirmar Presença</span>
-          <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
-        </a>
-      </div>
-
-    </div>
-  </header>
-
-  <main class="relative z-10">
-
-    <!-- ========================================== -->
-    <!-- [SEÇÃO 1: HERO / BANNER PRINCIPAL] -->
-    <!-- ========================================== -->
-    <section id="hero" class="relative pt-12 pb-20 sm:pt-16 sm:pb-28 px-4 sm:px-6 max-w-5xl mx-auto text-center">
-      
       <!-- GATILHO DE EXCLUSIVIDADE & ESCASSEZ BADGE -->
       <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-card border border-brand-gold/40 shadow-sm mb-6 animate-pulse-soft">
         <span class="w-2 h-2 rounded-full bg-brand-terracotta animate-ping"></span>
