@@ -2,3 +2,5 @@ node_modules/
 leads.json
 .DS_Store
 *.log
+
+.vercel

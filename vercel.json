@@ -1,15 +1,5 @@
 {
-  "version": 2,
-  "name": "gla-morning",
-  "cleanUrls": true,
-  "routes": [
-    {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
+  "framework": null,
+  "buildCommand": null,
+  "outputDirectory": "."
 }
