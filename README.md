@@ -9,7 +9,7 @@ Landing Page exclusiva desenvolvida para o evento **GLA MORNING**, idealizado po
 - **Identidade Visual Sofisticada & Feminina:** Paleta em tons *champagne nude*, terracota sutil, acabamento *glassmorphism* e tipografia editorial de luxo (*Playfair Display* + *Cormorant Garamond* + *Plus Jakarta Sans*).
 - **Hero Section de Alto Impacto:** Logos em destaque, pilares (*Wellness, Movement, Brunch*), informações de data/local e contador regressivo dinâmico.
 - **Seção da Anfitriã:** Assinatura *By Glaucia Peron* e slogan *Experiências que Transformam*.
-- **Timeline Interativa do Cronograma:** Apresentação visual de todos os momentos (Welcome, Yoga, Sorteios, Fitness Domcore, GLA Brunch com ativação ISDIN e sorvete proteico Oh Whey, Encerramento).
+- **Timeline Interativa do Cronograma:** Apresentação visual de todos os momentos (Welcome, Yoga, Sorteios, Fitness Domcore, GLA Brunch com ativação GENEVITTA e sorvete proteico Oh Whey, Encerramento).
 - **Gatilhos de Escassez e Conversão:** Destaque para as **30 vagas femininas exclusivas**, CTAs com micro-animação de brilho e botão flutuante inteligente para smartphones.
 - **Modal de Confirmação (RSVP):** Formulário interativo com redirecionamento automático para WhatsApp com mensagem personalizada preenchida.
 
